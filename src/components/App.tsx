@@ -9,7 +9,6 @@ import * as jsPDF from 'jspdf';
 export interface AppProps {
   transactions: Transaction[];
   renderTransactionsData: Function;
-  filterInput: string;
   filterData: Function;
 }
 

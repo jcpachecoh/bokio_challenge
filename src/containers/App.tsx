@@ -4,12 +4,11 @@ import { TransactionsActions, renderTransactionsData, filterData } from '../acti
 import App from '../components/App';
 import { Transaction } from '../models/Transaction';
 
-type ConnectedStateProps = Pick<AppProps, 'transactions' | 'filterInput' >;
+type ConnectedStateProps = Pick<AppProps, 'transactions' >;
 
 export function mapStateToProps({ transactionsReducer: { transactions, filterInput } }: any): ConnectedStateProps {
     return {
         transactions,
-        filterInput
     };
 }
 

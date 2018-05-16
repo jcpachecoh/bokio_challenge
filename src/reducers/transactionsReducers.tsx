@@ -8,7 +8,7 @@ export const defaultTrasactions = {
     transactions: [],
     transaction: {
         id: '',
-        date: new Date(),
+        date: '2018-05-16T19:40:24.600Z',
         text: '',
         amount: ''
     },
